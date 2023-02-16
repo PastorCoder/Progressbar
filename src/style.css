@@ -1,0 +1,70 @@
+.App{
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	margin-top: 10%;
+}
+
+/* .progressbar{
+position: absolute;
+width: 204.3px;
+height: 2.52px;
+left: 1.26px;
+top: 4.33px;
+background: #FFCDAA;
+border-radius: 2.52216px;
+} */
+.progressbar{
+	position: relative;
+	overflow: hidden;
+	width: 204.3px;
+    height: 2.52px;
+	border-radius: 5px;
+	background-color: #FFCDAA;
+	border-radius: 2.52216px;
+}
+
+.progressPercent{
+width: 59.27px;
+height: 23px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 10.0887px;
+color: #A55D35;
+text-align: right !important;
+}
+
+
+/* .progressPercent{
+	font-weight: 600;
+	font-family:'Franklin Gothic Medium';
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	color: #eee;
+	text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
+} */
+
+.btn{
+	display: block;
+	margin: 5rem auto;
+	border: none;
+	border-radius: 3px;     
+	outline: none;
+	width: 100px;
+	height: 40px;
+	background-color: #937DC2;
+	transition: box-shadow 0.5s;
+	font-size: 16px;
+	font-family:arial;
+	color: #fff;
+	cursor: pointer;
+}
+
+.btn:hover{
+	-webkit-box-shadow: inset 100px 0 0 0 #7c54d1;
+    box-shadow: inset 100px 0 0 0 #7c54d1;
+}
+
